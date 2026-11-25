@@ -66,7 +66,7 @@
 
 Adona Robot Sàrl provides a market data API delivering one‑second OHLC candles and a live quote stream for foreign exchange (FX) and precious metals. The service is sold by capacity, starting at CHF 500 per month, with redistribution allowed. It offers tiered plans (Starter, Growth, Scale, Enterprise) and is hosted at api.adona-robot.com. The company is based in Switzerland, emphasizing low‑latency data, easy integration via OpenAPI, and comprehensive documentation.
 
-**Areas:** Finance · Market-Data · Forex · Metals · API · Swiss
+**Areas:** Finance · Market Data · Foreign Exchange · Metals · Swiss
 
 ## adona-robot-com on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for adona-robot-com is published on APIs.io rather than in t
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adona-robot-com-mcp.yml](https://apis.io/servers/adona-robot-com/adona-robot-com-mcp-yml/)
 
 #### JSON Schema (5)
 
@@ -107,21 +113,21 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adona Robot Com Authentication](https://apis.io/security/adona-robot-com/adona-robot-com-authentication/)
-- [Adona Robot Com Domain Security](https://apis.io/security/adona-robot-com/adona-robot-com-domain-security/)
-- [Adona Robot Com Vulnerability Disclosure](https://apis.io/security/adona-robot-com/adona-robot-com-vulnerability-disclosure/)
+- [adona-robot-com Authentication](https://apis.io/security/adona-robot-com/adona-robot-com-authentication/)
+- [adona-robot-com Domain Security](https://apis.io/security/adona-robot-com/adona-robot-com-domain-security/)
+- [adona-robot-com Vulnerability Disclosure](https://apis.io/security/adona-robot-com/adona-robot-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adona Robot Com Plans Pricing](https://apis.io/plans/adona-robot-com/adona-robot-com-plans-pricing/)
+- [adona-robot-com Plans Pricing](https://apis.io/plans/adona-robot-com/adona-robot-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Adona Robot Com Rate Limits](https://apis.io/rate-limits/adona-robot-com/adona-robot-com-rate-limits/)
+- [adona-robot-com Rate Limits](https://apis.io/rate-limits/adona-robot-com/adona-robot-com-rate-limits/)
 
 ## Where to find this API
 
@@ -141,18 +147,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.7** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 42.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 52.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 31.6 |
+| Discoverability | 73.3 |
+| Contract quality | 23.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 56.4 |
-| Access clarity | 44.7 |
+| Access clarity | 48.9 |
 
-**Agent readiness 36.5** — agent-ready
+**Agent readiness 35.7** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -177,6 +183,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 34.3** — Securities & Market Data
 
